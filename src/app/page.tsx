@@ -77,7 +77,7 @@ export default function HomePage() {
 
           {/* Author photo */}
           <div className="flex-shrink-0 flex items-center justify-center">
-            <div className="relative w-52 h-52 md:w-72 md:h-72">
+            <div className="relative w-52 h-64 md:w-64 md:h-80">
               <div
                 className="absolute inset-0 rounded-2xl bg-[#F6AD55] rotate-6 shadow-xl"
                 aria-hidden="true"
@@ -91,7 +91,7 @@ export default function HomePage() {
                   src="/images/kathy_photo_home.jpg"
                   alt="Kathy Whitehead, children's author, sitting on a porch holding one of her books"
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   sizes="(max-width: 768px) 208px, 288px"
                   priority
                 />
