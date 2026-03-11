@@ -40,7 +40,7 @@ export default function HomePage() {
               className="inline-block bg-[#F6AD55] text-[#744210] text-sm font-bold px-4 py-1 rounded-full mb-5"
               style={{ fontFamily: "'Quicksand', sans-serif" }}
             >
-              Award-Winning Children&apos;s Author
+              Acclaimed Children&apos;s Author
             </span>
             <h1
               className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4"
