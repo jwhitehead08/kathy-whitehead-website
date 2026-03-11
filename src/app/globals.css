@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-folk-blue: #2B6CB0;
+  --color-folk-blue-light: #4299E1;
+  --color-folk-yellow: #F6AD55;
+  --color-folk-yellow-light: #FEF3C7;
+  --color-folk-red: #C53030;
+  --color-folk-red-light: #FED7D7;
+  --color-folk-green: #276749;
+  --color-folk-cream: #FFFBEB;
+  --color-folk-brown: #744210;
+  --font-heading: 'Quicksand', sans-serif;
+  --font-body: 'Lato', sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--color-folk-cream);
+  --color-foreground: #1A202C;
+}
+
+body {
+  background-color: var(--color-folk-cream);
+  color: #1A202C;
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
